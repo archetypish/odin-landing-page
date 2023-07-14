@@ -126,6 +126,11 @@ h2 {
   margin: 0 auto;
 }
 
+.inner-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 /* Header */
 
 .header-container {
@@ -188,8 +193,9 @@ h2 {
 
 .info-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 48px 0 120px;
+  gap: 48px;
 }
 
 .info-list-item {
@@ -202,4 +208,16 @@ h2 {
 }
 .info-list-desc {
   text-align: center;
+}
+
+/* Quote Container */
+.quote-container {
+  padding: 96px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quote-source {
+  align-self: flex-end;
 }
