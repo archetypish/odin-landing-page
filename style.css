@@ -222,3 +222,28 @@ h2 {
   align-self: flex-end;
 }
 /* CTA container */
+.ctacontent-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  padding: 64px 0;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.cta-container {
+  border-radius: 16px;
+}
+
+.cta-section {
+  padding: 96px 0;
+}
+
+/*  */
