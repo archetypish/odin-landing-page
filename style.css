@@ -146,8 +146,8 @@ h2 {
 .hero-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 32px;
+  align-items: center;
+  gap: 64px;
   padding: 96px 0;
 }
 
@@ -163,7 +163,6 @@ h2 {
   flex: 1 1 0;
 }
 .hero-img {
-  width: 100%;
-
+  min-width: 0;
   flex: 1 1 0;
 }
