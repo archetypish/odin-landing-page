@@ -6,72 +6,90 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <a href=".">Ecommerce Reimagined</a>
-        <nav>
-          <ul>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Make</a></li>
-            <li><a href="#">Get in Touch</a></li>
+        <a class="logo" href=".">Ecommerce Reimagined</a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Make</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get in Touch</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
     <section class="hero">
-      <div class="container">
-        <div>
-          <h1>Ecommerce like never before</h1>
-          <p>
+      <article class="container">
+        <div class="hero-text">
+          <h1 class="heading-1">Ecommerce like never before</h1>
+          <p class="text">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim fuga
             pariatur dolorem sed aliquam. Accusantium voluptatibus dicta libero
             autem doloremque!
           </p>
-          <a href="#">Get in Touch</a>
+          <a class="btn btn-primary" href="#">Get in Touch</a>
         </div>
-        <div>
+        <div class="hero-img">
           <img
             src="./img/hero.jpg"
             alt="an exit door to new era of electronic commerce"
           />
         </div>
-      </div>
+      </article>
     </section>
-    <section>
+    <section class="info">
       <div class="container">
-        <h2>Electronic Commerce Information</h2>
-        <ul>
-          <li>
-            <article>
-              <img src="./img/more-info-1.jpg" alt="More information 1" />
-              <p>
+        <h2 class="heading-2">Electronic Commerce Information</h2>
+        <ul class="info-list">
+          <li class="info-item">
+            <article class="info-container">
+              <img
+                class="info-img"
+                src="./img/more-info-1.jpg"
+                alt="More information 1"
+              />
+              <p class="text info-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                 sapiente ad eveniet.
               </p>
             </article>
           </li>
-          <li>
-            <article>
-              <img src="./img/more-info-2.jpg" alt="More information 2" />
-              <p>
+          <li class="info-item">
+            <article class="info-container">
+              <img
+                class="info-img"
+                src="./img/more-info-2.jpg"
+                alt="More information 2"
+              />
+              <p class="text info-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                 sapiente ad eveniet.
               </p>
             </article>
           </li>
-          <li>
-            <article>
-              <img src="./img/more-info-3.jpg" alt="More information 3" />
-              <p>
+          <li class="info-item">
+            <article class="info-container">
+              <img
+                class="info-img"
+                src="./img/more-info-3.jpg"
+                alt="More information 3"
+              />
+              <p class="text info-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                 sapiente ad eveniet.
               </p>
             </article>
           </li>
-          <li>
-            <article>
-              <img src="./img/more-info-4.jpg" alt="More information 4" />
-              <p>
+          <li class="info-item">
+            <article class="info-container">
+              <img
+                class="info-img"
+                src="./img/more-info-4.jpg"
+                alt="More information 4"
+              />
+              <p class="text info-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                 sapiente ad eveniet.
               </p>
@@ -80,30 +98,30 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section class="testimonial">
       <div class="container">
-        <blockquote>
-          <p>
+        <blockquote class="quote-container">
+          <p class="text quote-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A
             cupiditate ipsam molestias officiis quod, nobis dolorum ratione
             dignissimos ex aspernatur aliquid cum! Doloremque dolor, rerum autem
             distinctio dolore eligendi earum.
           </p>
-          <cite>-Thor, God of Thunder</cite>
+          <cite class="quote-source">-Thor, God of Thunder</cite>
         </blockquote>
       </div>
     </section>
-    <section>
+    <section class="cta">
       <div class="container">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-        <p>
+        <h3 class="heading-3">Lorem ipsum dolor sit amet.</h3>
+        <p class="text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, eum!
         </p>
-        <a href="#">Get in Touch</a>
+        <a class="btn btn-secondary" href="#">Get in Touch</a>
       </div>
     </section>
-    <footer>
-      <small>Copyright &copy; The Odin Project 2021</small>
+    <footer class="footer">
+      <small class="small-text">Copyright &copy; The Odin Project 2021</small>
     </footer>
   </body>
 </html>
