@@ -25,12 +25,20 @@ body {
   font-size: 16px;
 }
 
-/* Header */
 a {
   text-decoration: none;
 }
 
-.header {
+.btn {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+/* Header */
+
+.header,
+.hero {
   background-color: #1f2937;
 }
 
@@ -43,4 +51,23 @@ a {
 .nav-link {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+/* Hero */
+.heading-1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero .text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.btn-primary {
+  background-color: #3882f6;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
 }
