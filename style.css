@@ -177,13 +177,22 @@ a {
   gap: 48px;
 } */
 
-.hero-text,
+/* .hero-text,
 .hero-img {
   flex: 1;
-}
+} */
 
 .hero-img img {
   max-width: 100%;
 }
 
 /* reduce width of hero text */
+.hero-text {
+  flex: 0 1 40%;
+}
+
+.hero-img {
+  flex: 0 1 60%;
+}
+
+/*  */
