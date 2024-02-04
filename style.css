@@ -154,7 +154,7 @@ a {
 }
 
 .inner-container {
-  width: 900px;
+  width: 1000px;
 }
 
 .flex {
@@ -207,18 +207,19 @@ a {
 }
 
 /* Make img of same size */
+
+.info-item {
+  flex: 0 1 200px;
+}
+
 .info-img {
-  width: 200px;
   height: 200px;
+  width: 200px;
   object-fit: cover;
   object-position: center;
+  margin-bottom: 12px;
 }
 
-/* Add spacing */
-.info-list {
-  gap: 4px;
-}
-
-.inner-container {
-  border: 4px solid red;
+.info .text {
+  text-align: center;
 }
