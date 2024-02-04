@@ -237,3 +237,12 @@ a {
 .text.quote-source {
   align-self: flex-end;
 }
+
+/* CTA section */
+.cta {
+  padding: 128px 0;
+}
+
+.cta .container {
+  padding: 36px 0;
+}
