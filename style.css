@@ -90,3 +90,21 @@ a {
   border-radius: 8px;
   border: 4px solid #3882f6;
 }
+
+/* Testimonial section */
+.testimonial {
+  background-color: #e5e7eb;
+}
+
+.text.quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.text.quote-source {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+}
