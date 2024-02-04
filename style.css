@@ -171,3 +171,19 @@ a {
 .nav-list {
   gap: 24px;
 }
+/* Hero */
+
+/* .hero .container {
+  gap: 48px;
+} */
+
+.hero-text,
+.hero-img {
+  flex: 1;
+}
+
+.hero-img img {
+  max-width: 100%;
+}
+
+/* reduce width of hero text */
