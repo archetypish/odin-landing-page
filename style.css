@@ -135,3 +135,20 @@ a {
 .text.small-text {
   color: #e5e7eb;
 }
+
+/* Layout */
+
+/* Generic Layout styles */
+
+.container,
+.inner-container {
+  margin: 0 auto;
+}
+
+.container {
+  width: 1100px;
+}
+
+.inner-container {
+  width: 800px;
+}
