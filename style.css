@@ -82,7 +82,7 @@ a {
 /* Information section */
 .heading-2 {
   color: #1f2937;
-  font-weight: extra-bold;
+  font-weight: 900;
   font-size: 36px;
 }
 
@@ -173,15 +173,6 @@ a {
 }
 /* Hero */
 
-/* .hero .container {
-  gap: 48px;
-} */
-
-/* .hero-text,
-.hero-img {
-  flex: 1;
-} */
-
 .hero-img img {
   max-width: 100%;
 }
@@ -203,4 +194,13 @@ a {
 .hero-text .heading-1,
 .hero-text .text {
   margin-bottom: 16px;
+}
+
+/* information */
+.heading-2 {
+  text-align: center;
+}
+
+.info {
+  padding: 64px;
 }
