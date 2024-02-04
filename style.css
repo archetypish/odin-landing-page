@@ -162,3 +162,12 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Header */
+.header {
+  padding: 24px 0;
+}
+
+.nav-list {
+  gap: 24px;
+}
