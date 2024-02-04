@@ -195,4 +195,12 @@ a {
   flex: 0 1 60%;
 }
 
-/*  */
+/* add necessary spaces */
+.hero {
+  padding: 96px 0;
+}
+
+.hero-text .heading-1,
+.hero-text .text {
+  margin-bottom: 16px;
+}
