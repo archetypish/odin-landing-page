@@ -203,7 +203,7 @@ a {
 }
 
 .info {
-  padding: 64px;
+  padding: 64px 0 128px;
 }
 
 /* Make img of same size */
