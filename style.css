@@ -228,3 +228,12 @@ a {
 .testimonial {
   padding: 128px 0;
 }
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text.quote-source {
+  align-self: flex-end;
+}
