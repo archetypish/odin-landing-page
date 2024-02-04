@@ -8,6 +8,10 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Border Box */
 html {
   box-sizing: border-box;
