@@ -223,3 +223,8 @@ a {
 .info .text {
   text-align: center;
 }
+
+/* testimonial section */
+.testimonial {
+  padding: 128px 0;
+}
