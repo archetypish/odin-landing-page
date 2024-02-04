@@ -126,3 +126,12 @@ a {
   font-weight: bold;
   color: #fff;
 }
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+}
+
+.text.small-text {
+  color: #e5e7eb;
+}
